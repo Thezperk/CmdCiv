@@ -10,7 +10,7 @@ public class Launcher {
 	private static final String VERSION = "0.0.1";
 	
 	public static void main(String[] args) {
-		JFrame frame = new JFrame("CmdCiv - Version 0.0.1");
+		JFrame frame = new JFrame("CmdCiv - Version " + VERSION);
 		Game game = new Game();
 		RenderDevice render = new RenderDevice(800, 500, game);
 		
